@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tutorial | AETERIUM SMP</title>
+    <meta name="description"
+          content="Pusat panduan Minecraft Java dan Bedrock AETERIUM SMP.">
+
+    <link rel="icon" href="assets/aeterium-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="aet-header">
+        <div class="aet-container aet-header-inner">
+
+            <a href="index.html" class="aet-brand">
+                <img src="assets/aeterium-icon.png"
+                     alt="Logo AETERIUM SMP"
+                     class="aet-brand-icon">
+                <span class="aet-brand-text">AETERIUM SMP</span>
+            </a>
+
+            <nav class="aet-nav" aria-label="Navigasi utama">
+                <a href="index.html" class="aet-nav-link">Home</a>
+                <a href="features.html" class="aet-nav-link">Features</a>
+                <a href="ranks.html" class="aet-nav-link">Ranks</a>
+                <a href="events.html" class="aet-nav-link">Events</a>
+                <a href="tutorials.html" class="aet-nav-link active" aria-current="page">Tutorial</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="aet-section aet-subhero">
+            <div class="aet-container aet-reveal">
+
+                <p class="aet-kicker">AETERIUM KNOWLEDGE BASE</p>
+
+                <h1>
+                    LEARN.
+                    <span class="aet-gradient-text">EXPLORE.</span>
+                    SURVIVE.
+                </h1>
+
+                <p>
+                    Pusat panduan AETERIUM SMP. Pelajari cara bergabung,
+                    memahami fitur server, dan memulai petualanganmu.
+                </p>
+
+                <a href="#tutorial-catalog"
+                   class="aet-btn aet-btn-primary">
+                    Jelajahi Panduan
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- KATALOG -->
+        <section class="aet-section" id="tutorial-catalog">
+            <div class="aet-container">
+
+                <div class="aet-section-heading aet-reveal">
+                    <p class="aet-kicker">DOCUMENTATION</p>
+                    <h2>Daftar Tutorial</h2>
+                    <p>
+                        Pilih panduan sesuai edisi Minecraft
+                        dan kebutuhanmu.
+                    </p>
+                </div>
+
+
+                <!-- FILTER -->
+                <div class="aet-tutorial-filters"
+                     role="group"
+                     aria-label="Filter kategori tutorial">
+
+                    <button type="button"
+                            class="aet-btn aet-btn-primary"
+                            data-tutorial-filter="all"
+                            aria-pressed="true">
+                        Semua
+                    </button>
+
+                    <button type="button"
+                            class="aet-btn aet-btn-secondary"
+                            data-tutorial-filter="java"
+                            aria-pressed="false">
+                        Java Edition
+                    </button>
+
+                    <button type="button"
+                            class="aet-btn aet-btn-secondary"
+                            data-tutorial-filter="bedrock"
+                            aria-pressed="false">
+                        Bedrock Edition
+                    </button>
+
+                    <button type="button"
+                            class="aet-btn aet-btn-secondary"
+                            data-tutorial-filter="general"
+                            aria-pressed="false">
+                        Panduan Umum
+                    </button>
+
+                </div>
+
+
+                <!-- GRID TUTORIAL -->
+                <div class="aet-tutorial-grid">
+
+                    <!-- JAVA -->
+                    <article class="aet-tutorial-card aet-reveal"
+                             data-tutorial-category="java">
+
+                        <div class="aet-tutorial-card-top">
+                            <span class="aet-tutorial-tag">JAVA EDITION</span>
+                            <span class="aet-tutorial-number">GUIDE 01</span>
+                        </div>
+
+                        <div class="aet-tutorial-content">
+                            <h3>Cara Bergabung ke Server</h3>
+
+                            <p>
+                                Panduan menambahkan AETERIUM SMP
+                                melalui menu Multiplayer Minecraft Java.
+                            </p>
+
+                            <a href="tutorials/java-join.html"
+                               class="aet-btn aet-btn-secondary">
+                                Buka Tutorial
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- BEDROCK -->
+                    <article class="aet-tutorial-card aet-reveal"
+                             data-tutorial-category="bedrock">
+
+                        <div class="aet-tutorial-card-top">
+                            <span class="aet-tutorial-tag">BEDROCK EDITION</span>
+                            <span class="aet-tutorial-number">GUIDE 02</span>
+                        </div>
+
+                        <div class="aet-tutorial-content">
+                            <h3>Cara Bergabung melalui Bedrock</h3>
+
+                            <p>
+                                Pelajari cara memasukkan alamat dan port
+                                server melalui menu Servers.
+                            </p>
+
+                            <a href="tutorials/bedrock-join.html"
+                               class="aet-btn aet-btn-secondary">
+                                Buka Tutorial
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- PANDUAN UMUM -->
+                    <article class="aet-tutorial-card aet-reveal"
+                             data-tutorial-category="general">
+
+                        <div class="aet-tutorial-card-top">
+                            <span class="aet-tutorial-tag">PANDUAN UMUM</span>
+                            <span class="aet-tutorial-number">GUIDE 03</span>
+                        </div>
+
+                        <div class="aet-tutorial-content">
+                            <h3>Peraturan dan Etika Bermain</h3>
+
+                            <p>
+                                Kenali aturan dasar agar pengalaman bermain
+                                bersama komunitas tetap nyaman.
+                            </p>
+
+                            <a href="tutorials/server-rules.html"
+                               class="aet-btn aet-btn-secondary">
+                                Buka Panduan
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p id="tutorial-empty" hidden>
+                    Belum ada tutorial dalam kategori ini.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- INFORMASI KONEKSI -->
+        <section class="aet-section">
+            <div class="aet-container aet-highlight-panel aet-reveal">
+
+                <p class="aet-kicker">READY TO PLAY?</p>
+                <h2>Bergabung ke AETERIUM SMP</h2>
+
+                <p>
+                    Gunakan alamat sesuai edisi Minecraft yang kamu mainkan.
+                </p>
+
+                <div class="aet-connect-item">
+                    <h3>Java Edition</h3>
+                    <div class="aet-server-address">
+                        <code>play.aeteriumsmp.my.id:19199</code>
+                        <button type="button"
+                                class="aet-btn aet-btn-secondary"
+                                data-copy="play.aeteriumsmp.my.id:19199">
+                            Salin
+                        </button>
+                    </div>
+                </div>
+
+                <div class="aet-connect-item">
+                    <h3>Bedrock Edition</h3>
+                    <div class="aet-server-address">
+                        <code>play.aeteriumsmp.my.id</code>
+                        <button type="button"
+                                class="aet-btn aet-btn-secondary"
+                                data-copy="play.aeteriumsmp.my.id">
+                            Salin Alamat
+                        </button>
+                    </div>
+
+                    <div class="aet-server-address">
+                        <code>19205</code>
+                        <button type="button"
+                                class="aet-btn aet-btn-secondary"
+                                data-copy="19205">
+                            Salin Port
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="aet-footer">
+        <div class="aet-container">
+            <p>
+                &copy; <span data-year></span> AETERIUM SMP.
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
